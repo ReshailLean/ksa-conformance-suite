@@ -19,7 +19,7 @@ Wiretap provides us with an excellent UI experience as well. So to utilize it st
 <img width="1460" alt="Screenshot 2024-02-05 at 1 54 14 AM" src="https://github.com/ReshailLean/ksa-conformance-suite/assets/98384896/23b1d977-b2a9-4f82-b236-511034207a4a">
 
 # Work in progress
-- Please note that this is a work in progress, currently the service uses static raw bank responses from Alinma, Once we get security sign off this will start to get the responses from S3 and no longer be 
+- Please note that this is a work in progress, currently the service uses static raw bank responses from Alinma, Once we get security sign off this will start to get the responses from S3 and no longer use static files
 - The test is just a POC so it runs all endpoints at once and shares the response in a single json file, this will need to be improved
 - You can update the responses under resources to run conformance for any bank or response that follows the KSA open API spec
 - The docker file needs a bit more work, but once it works I will update the readme so its easier to run the tests

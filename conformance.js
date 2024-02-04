@@ -30,5 +30,5 @@ app.use(accountsPath, beneficiariesRoute);
 app.use(accountsPath, standingOrdersRoute);
 
 app.listen(port, () => {
-  console.log(`Server is running at http://localhost:${port}`);
+  console.log(`You can now check API conformance at http://localhost:${port}`);
 });

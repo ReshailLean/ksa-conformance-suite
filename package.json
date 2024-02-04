@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "service": "node ./conformance.js",
+    "wiretap": "wiretap -u http://0.0.0.0:3000 -s ./resources/KSA.AccountInformationServices.yaml --stream-report --report-filename ./reports/conformance-report.json",
     "test": "node ./tests/conformance.tests.js",
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix"
